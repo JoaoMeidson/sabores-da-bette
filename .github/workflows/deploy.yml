@@ -30,7 +30,7 @@ jobs:
 
       # Criar o arquivo .nojekyll
       - name: Disable Jekyll
-        run: echo "" > dist/nome-do-projeto/.nojekyll
+        run: echo "" > docs/.nojekyll
 
       # Deploy para o GitHub Pages
       - name: Deploy to GitHub Pages
